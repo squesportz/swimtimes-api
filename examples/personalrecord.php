@@ -45,6 +45,6 @@ if ($aId > 0) {
 		echo 'Error: ',  $e->getMessage(), "\n";
 	}
 }
-?></body>
+?><i>Data prepared by <a href='//www.swimtimes.nl/'>SwimTimes</a>.</i></body>
 
 </html>
