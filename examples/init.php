@@ -5,7 +5,7 @@ require_once "../SqueSportz/SwimTimes/connector.class.php";
 // Initial settings
 define("USERNAME", "***");		// Username for API
 define("PASSWORD", "***");		// Password for API
-define("TEAM", "***");			// Nation.clubcode or Unique ID
+define("TEAM", "NED.13-098");	// Nation.clubcode or Unique ID
 define("ACTIVE", "true");		// Select only active swimmers
 
 $api = new \SqueSportz\SwimTimes\connector();
