@@ -33,7 +33,7 @@ if ($aId > 0) {
 		foreach ($data as $row => $d) {
 			echo "<tr>";
 			echo "<td>".calcStyle($d->swimid)."</td>";
-			echo "<td>".($d->mCourse == 1 ? '50m' : '25m')."</td>";
+			echo "<td>".($d->rCourse == 1 ? '50m' : '25m')."</td>";
 			echo "<td>".calcTime($d->resulttime/1000)."</td>";
 			echo "<td>".calcDate($d->date)."</td>";
 			echo "<td>".$d->mName."</td>";
